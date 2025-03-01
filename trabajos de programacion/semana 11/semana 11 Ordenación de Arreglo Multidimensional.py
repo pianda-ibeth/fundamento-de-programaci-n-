@@ -29,7 +29,11 @@ def mostrar_matriz(matriz):
 # Mostrar la matriz original
 print("Matriz Original:")
 mostrar_matriz(matriz)
-
+matriz = [
+    [3, 1, 7],
+    [8, 2, 5],
+    [4, 9, 6]
+]
 # Ordenar cada fila de la matriz utilizando Bubble Sort
 for fila in matriz:
     bubble_sort_fila(fila)
@@ -37,5 +41,7 @@ for fila in matriz:
 # Mostrar la matriz ordenada
 print("\nMatriz Ordenada por Filas:")
 mostrar_matriz(matriz)
-
+[1, 3, 7]
+[2, 5, 8]
+[4, 6, 9]
 
