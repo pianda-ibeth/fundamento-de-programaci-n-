@@ -1,0 +1,8 @@
+# Lectura de Archivo de Texto
+
+with open('my_notes.txt', 'r') as file:
+    print("Contenido del archivo:")
+    linea = file.readline()
+    while linea:
+        print(linea.strip())
+        linea = file.readline()
